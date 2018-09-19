@@ -1,0 +1,14 @@
+- Project
+    - Makefile
+    - src: 所有源文件 (不得放在子目录)
+        - add.cpp
+        - add.h
+        - sub.cpp
+        - sub.h
+        - main.cpp
+    - obj
+        - 空
+    - debug
+        - 空
+    - bin
+        - 空
