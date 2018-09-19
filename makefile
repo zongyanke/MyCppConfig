@@ -1,5 +1,9 @@
 # originating https://github.com/TheNetAdmin/Makefile-Templates
 # tool marcros
+#如果要指定特定的Makefile，你可以使用make的“-f”和“--file”参数，如：make –f Make.Linux或make –file Make.AIX。
+#在Makefile使用include关键字可以把别的Makefile包含进来，这很像C语言的#include，被包含的文件会原模原样的放在当前文件的包含位置。include的语法是：
+#include<filename>filename可以是当前操作系统Shell的文件模式（可以保含路径和通配符）
+
 CC := g++
 CCFLAG := -std=c++14
 DBGFLAG := -g
